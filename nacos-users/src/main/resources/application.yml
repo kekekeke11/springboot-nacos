@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        ###服务注册地址
+        server-addr: 127.0.0.1:8848
+  application:
+    name: nacos-users
+server:
+  port: 8091
+
+logging:
+  path: F:/idea_workspace/springboot-nacos/logs/${spring.application.name}

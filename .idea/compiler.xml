@@ -6,8 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-nacos" />
+        <module name="nacos-app" />
+        <module name="nacos-service" />
+        <module name="nacos-users" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nacos-app" options="-parameters" />
+      <module name="nacos-service" options="-parameters" />
+      <module name="nacos-users" options="-parameters" />
+    </option>
   </component>
 </project>
