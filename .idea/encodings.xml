@@ -3,7 +3,22 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-app/nacos-app-cust" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-app/nacos-app-platform" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-service/nacos-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-service/nacos-service-api/nacos-service-api-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-service/nacos-service-api/nacos-service-api-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-service/nacos-service-api/nacos-service-api-rbac" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-service/nacos-service-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-service/nacos-service-persist" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-service/nacos-service-persist/nacos-service-persist-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-service/nacos-service-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-service/nacos-service-server/nacos-service-api-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-service/nacos-service-server/nacos-service-server-data" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-users" charset="UTF-8" />
   </component>
 </project>

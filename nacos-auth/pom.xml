@@ -9,16 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nacos-service</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>nacos-service-api</module>
-        <module>nacos-service-common</module>
-        <module>nacos-service-persist</module>
-        <module>nacos-service-server</module>
-    </modules>
-
-
+    <artifactId>nacos-auth</artifactId>
 
 
 </project>

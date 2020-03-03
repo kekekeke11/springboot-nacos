@@ -12,6 +12,9 @@
         <module>nacos-service</module>
         <module>nacos-app</module>
         <module>nacos-users</module>
+        <module>nacos-auth</module>
+        <module>nacos-common</module>
+        <module>nacos-gateway</module>
     </modules>
 
     <parent>

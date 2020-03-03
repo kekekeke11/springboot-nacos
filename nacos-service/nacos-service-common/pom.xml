@@ -3,22 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>springboot-nacos</artifactId>
+        <artifactId>nacos-service</artifactId>
         <groupId>springboot-nacos</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nacos-service</artifactId>
+    <artifactId>nacos-service-common</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>nacos-service-api</module>
-        <module>nacos-service-common</module>
-        <module>nacos-service-persist</module>
-        <module>nacos-service-server</module>
-    </modules>
-
-
-
 
 </project>

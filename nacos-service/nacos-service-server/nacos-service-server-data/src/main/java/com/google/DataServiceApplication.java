@@ -12,10 +12,10 @@ import org.springframework.web.client.RestTemplate;
  * @date 2020/3/2 16:06
  **/
 @SpringBootApplication
-public class NacosServiceApplication {
+public class DataServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(NacosServiceApplication.class, args);
+        SpringApplication.run(DataServiceApplication.class, args);
     }
 
     @Bean

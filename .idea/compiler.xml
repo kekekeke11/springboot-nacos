@@ -6,16 +6,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nacos-app" />
-        <module name="nacos-service" />
+        <module name="nacos-app-cust" />
+        <module name="nacos-app-platform" />
+        <module name="nacos-auth" />
+        <module name="nacos-common" />
+        <module name="nacos-gateway" />
+        <module name="nacos-service-api-data" />
+        <module name="nacos-service-api-rbac" />
+        <module name="nacos-service-persist-data" />
+        <module name="nacos-service-server-data" />
         <module name="nacos-users" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacos-service-api-data" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="nacos-app" options="-parameters" />
+      <module name="nacos-app-cust" options="-parameters" />
+      <module name="nacos-app-platform" options="-parameters" />
+      <module name="nacos-auth" options="-parameters" />
+      <module name="nacos-common" options="-parameters" />
+      <module name="nacos-gateway" options="-parameters" />
       <module name="nacos-service" options="-parameters" />
+      <module name="nacos-service-api" options="-parameters" />
+      <module name="nacos-service-api-data" options="-parameters" />
+      <module name="nacos-service-api-rbac" options="-parameters" />
+      <module name="nacos-service-common" options="-parameters" />
+      <module name="nacos-service-persist" options="-parameters" />
+      <module name="nacos-service-persist-data" options="-parameters" />
+      <module name="nacos-service-server" options="-parameters" />
+      <module name="nacos-service-server-data" options="-parameters" />
       <module name="nacos-users" options="-parameters" />
     </option>
   </component>
