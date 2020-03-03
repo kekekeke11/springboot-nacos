@@ -5,7 +5,7 @@ spring:
         ###服务注册地址
         server-addr: 127.0.0.1:8848
   application:
-    name: nacos-service
+    name: nacos-service-server-data
 server:
   port: 8081
 

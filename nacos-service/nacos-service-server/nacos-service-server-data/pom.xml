@@ -11,5 +11,11 @@
 
     <artifactId>nacos-service-server-data</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>springboot-nacos</groupId>
+            <artifactId>nacos-service-api-data</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

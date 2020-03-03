@@ -17,8 +17,4 @@
         <module>nacos-service-persist</module>
         <module>nacos-service-server</module>
     </modules>
-
-
-
-
 </project>
